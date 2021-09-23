@@ -12,16 +12,16 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey("d"))
         {
-            rigid.AddForce(600f * Time.deltaTime, 0, 0);
+            rigid.AddForce(500f * Time.deltaTime, 0, 0);
         }
 
         if (Input.GetKey("a"))
         {
-            rigid.AddForce(-600f * Time.deltaTime, 0, 0);
+            rigid.AddForce(-500f * Time.deltaTime, 0, 0);
         }
         if(Input.GetKey("w") && cubeOnGround == true)
         {
-            rigid.AddForce(new Vector3(0, 500f * Time.deltaTime, 0), ForceMode.Impulse);
+            rigid.AddForce(new Vector3(0, 600f * Time.deltaTime, 0), ForceMode.Impulse);
             cubeOnGround = false;
         }
 
