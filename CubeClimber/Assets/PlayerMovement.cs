@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rigid;
     public bool cubeOnGround = true;
+    public GameObject endScreen;
 
     private void FixedUpdate()
     {
@@ -19,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rigid.AddForce(-500f * Time.deltaTime, 0, 0);
         }
+
         if(Input.GetKey("w") && cubeOnGround == true)
         {
             rigid.AddForce(new Vector3(0, 600f * Time.deltaTime, 0), ForceMode.Impulse);
@@ -33,6 +35,11 @@ public class PlayerMovement : MonoBehaviour
         {
             cubeOnGround = true;
         }
+
+	if(collision.gameObject.name == "PlatformFinal")
+	{
+	    endScreen.gameObject.SetActive(true);
+	}
     }
 
 }
