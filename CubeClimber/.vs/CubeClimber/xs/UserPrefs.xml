@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{2FCBD9CC-F1D7-04EB-0442-C09EFF356AD2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/endscreen.cs">
     <Files>
-      <File FileName="Assets/PlayerMovement.cs" Line="8" Column="37" />
-      <File FileName="Assets/FollowPlayer.cs" Line="14" Column="6" />
+      <File FileName="Assets/Scripts/endscreen.cs" Line="8" Column="29" />
+      <File FileName="Assets/Scripts/FollowPlayer.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="14ed77de-f790-48a3-866e-06cc725fdef5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e420b8b0-8d95-4f55-818e-4d01c331ee51" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
